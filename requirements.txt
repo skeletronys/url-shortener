@@ -25,7 +25,7 @@ lxml==5.3.0
 
 # AWS
 boto3==1.35.73
-aioboto3==13.2.0
+aiobotocore==2.16.1
 
 # Redis
 redis==5.2.0
