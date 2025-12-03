@@ -1,0 +1,52 @@
+# FastAPI & Server
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.18
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# Auth & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Configuration
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# AI & LLM
+anthropic==0.40.0
+httpx==0.28.1
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# AWS
+boto3==1.35.73
+aioboto3==13.2.0
+
+# Redis
+redis==5.2.0
+aioredis==2.0.1
+
+# Analytics & Data
+pandas==2.2.3
+geoip2==4.8.0
+user-agents==2.2.0
+
+# Utils
+python-slugify==8.0.4
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+faker==33.1.0
+
+# Dev Tools
+black==24.10.0
+ruff==0.8.2
